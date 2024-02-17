@@ -55,7 +55,7 @@ export default function Home() {
       </div>
 
       <div ref={magicBallRef}
-        className="flex text-beige items-center w-full xl:w-2/3 flex-col
+        className="flex text-beige items-center w-full xl:w-3/4 flex-col
       items-center justify-center py-16 rounded-3xl gap-8"
         style={{ minHeight: '35em' }}
       >
