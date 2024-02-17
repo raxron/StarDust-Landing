@@ -69,9 +69,9 @@ export default function Home() {
         <PriceCard2 title="Luxury" price={29} feature1="All Premium Features" feature2="Personalized Profiles" feature3="Tarot Card Readings" />
       </div>
 
-      <div className="bg-black rounded-3xl text-beige w-full mb-16 h-48 flex flex-col justify-center items-center px-4 gap-8">
+      <div className="bg-black rounded-3xl text-beige w-full mb-16 h-72 sm:h-60 flex flex-col justify-center items-center px-4 gap-8">
         <h3 className="font-newYork font-black text-2xl text-center">Sign Up for Our Newsletter and Stay Updated</h3>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2  flex-col sm:flex-row">
           <input type="text" required className="bg-beige rounded-3xl h-8 w-24 text-black px-2" placeholder="your name" />
           <Image src="/assets/star.png" alt="star icon" width={500} height={500} className="w-4 h-auto cursor-pointer" />
           <input type="text" required className="bg-beige rounded-3xl h-8 w-52 text-black px-2" placeholder="your email address" />
