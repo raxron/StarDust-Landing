@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function PriceCard() {
     return (
-        <div className="relative w-80 h-auto flex items-center justify-center text-xs lg:text-md">
+        <div className="relative w-80 h-auto flex items-center justify-center text-xs lg:text-base">
             <div className="text-beige absolute h-3/4 flex flex-col items-center justify-between" >
                 <h3 className="text-2xl font-bold">Standard</h3>
 

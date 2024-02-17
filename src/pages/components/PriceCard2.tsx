@@ -11,7 +11,7 @@ interface PriceCard2Props {
 
 const PriceCard2: React.FC<PriceCard2Props> = ({ title, price, feature1, feature2, feature3 }) => {
     return (
-        <div className="relative w-80 h-auto flex items-center justify-center text-xs lg:text-md">
+        <div className="relative w-80 h-auto flex items-center justify-center text-xs lg:text-base">
             <div className="text-black absolute h-3/4 flex flex-col items-center justify-between" >
                 <h3 className="text-2xl font-bold">{title}</h3>
 
