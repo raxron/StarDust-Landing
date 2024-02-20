@@ -24,7 +24,7 @@ export default function Home() {
 
       <div className=" flex w-full justify-between items-center flex-col my-16"
         style={{
-          minHeight: "55vh"
+          minHeight: "72vh"
         }}
       >
         <div className="text-6xl font-black font-newYork text-center">
@@ -36,7 +36,6 @@ export default function Home() {
             src="/assets/blackLogo.png" width={1000} height={1000} alt="logo black" className="w-96 h-auto" />
 
         </div>
-      </div>
       <div
         onClick={scrollToMagicBall}
         className="w-full h-24 bg-black text-beige rounded-3xl flex items-center justify-center gap-2 cursor-pointer px-8">
@@ -53,6 +52,8 @@ export default function Home() {
           <span></span>
         </motion.div>
       </div>
+      </div>
+     
 
       <div ref={magicBallRef}
         className="flex text-beige items-center w-full xl:w-3/4 flex-col
