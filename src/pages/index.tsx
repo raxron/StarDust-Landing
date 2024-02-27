@@ -65,9 +65,9 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col sm:flex-row items-center gap-8 mb-16 w-full item-center justify-center">
-        <PriceCard2 title="Premium" price={19} feature1="All Standard Features" feature2="Customized Horoscope" feature3="Compatibility Analysis" />
+        <PriceCard2 title="Premium" price={2} feature1="All Standard Features" feature2="Customized Horoscope" feature3="Compatibility Analysis" />
         <PriceCard />
-        <PriceCard2 title="Luxury" price={29} feature1="All Premium Features" feature2="Personalized Profiles" feature3="Tarot Card Readings" />
+        <PriceCard2 title="Luxury" price={3} feature1="All Premium Features" feature2="Personalized Profiles" feature3="Tarot Card Readings" />
       </div>
 
       <div className="bg-black rounded-3xl text-beige w-full mb-16 h-72 sm:h-60 flex flex-col justify-center items-center px-4 gap-8">

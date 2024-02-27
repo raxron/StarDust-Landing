@@ -1,15 +1,13 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
-
+import Price1 from "./Price1";
 export default function PriceCard() {
     return (
         <div className="relative w-80 h-auto flex items-center justify-center text-xs lg:text-base">
             <div className="text-beige absolute h-3/4 flex flex-col items-center justify-between" >
                 <h3 className="text-2xl font-bold">Standard</h3>
 
-                <div className="flex items-center">
-                    <p className="text-5xl">$0.</p><p>00</p>
-                </div>
+              <Price1/>
                 <ul>
                     <li className="flex gap-2 items-center">
                         <Image src="/assets/star.png" alt="star icon" width={500} height={500} className="w-4 h-auto" />
